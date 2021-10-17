@@ -1,6 +1,6 @@
-# Basic Sample Hardhat Project
+# Token Staking Sample Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates how to ERC-20 tokens, how to implement staking, rewarding tokens and how to implement full-coverage unit testing using hardhat.
 
 Try running some of the following tasks:
 
