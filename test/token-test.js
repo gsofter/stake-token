@@ -17,8 +17,8 @@ describe("Stake Token", function () {
     RewardToken = await ethers.getContractFactory("RewardToken");
     [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
 
-    gStakeToken = StakeToken.deploy();
-    gRewardToken = RewardToken.deploy();
+    gStakeToken = await StakeToken.deploy();
+    gRewardToken = await RewardToken.deploy();
   })
 
   describe("Deployment", function() {
